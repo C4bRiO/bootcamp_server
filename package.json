@@ -1,0 +1,31 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Sistema de Administracion de Eventos del GDG CDE",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C4bRiO/bootcamp.git"
+  },
+  "author": "Ever",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C4bRiO/bootcamp/issues"
+  },
+  "homepage": "https://github.com/C4bRiO/bootcamp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "method-override": "^2.3.10",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.35.5",
+    "sequelize-cli": "^4.0.0",
+    "sqlite3": "^3.1.13"
+  }
+}
