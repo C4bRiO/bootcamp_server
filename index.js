@@ -1,4 +1,5 @@
 var express = require('express');
+var cors = require('cors');
 var app = express();
 
 
@@ -16,6 +17,8 @@ var eventos = require('./server/controllers/evento');
 //servir contenido estatico del directorio
 app.use(express.static(__dirname));
 
+//enable CORS
+app.use(cors());
 
 //para los logs
 app.use(morgan('dev'));

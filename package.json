@@ -4,7 +4,7 @@
   "description": "Sistema de Administracion de Eventos del GDG CDE",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/C4bRiO/bootcamp#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "method-override": "^2.3.10",
     "morgan": "^1.9.0",
